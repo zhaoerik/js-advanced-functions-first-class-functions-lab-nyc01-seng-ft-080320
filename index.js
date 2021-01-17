@@ -2,3 +2,7 @@
 const returnFirstTwoDrivers = function(arr) {
     return [arr[0], arr[1]]
 }
+
+const returnLastTwoDrivers = function(arr) {
+    return [arr[arr.length - 1], arr[arr.length - 2]]
+}
